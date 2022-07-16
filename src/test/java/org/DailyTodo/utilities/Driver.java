@@ -23,7 +23,7 @@ public class Driver {
             switch (browser) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver(new ChromeOptions().setAcceptInsecureCerts(true));
+                    driver = new ChromeDriver();
                     break;
                 case "chrome headless":
                     WebDriverManager.chromedriver().setup();

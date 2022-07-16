@@ -19,18 +19,16 @@ public class TaskCreationStepDefinitions {
 
     @When("User clicks Edit link")
     public void user_clicks_Edit_link() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        mainPage.edit.click();
     }
     @When("User types a todo list in the Tasks for today input box")
     public void user_types_a_todo_list_in_the_Tasks_for_today_input_box() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        taskCreationPage.textInputBox.sendKeys("123\nDrink a glass of water\nGo jogging\nTake a shower");
+
     }
     @When("User clicks the Save Tasks button")
     public void user_clicks_the_Save_Tasks_button() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        taskCreationPage.saveTasksButton.click();
     }
     @Then("User should be able to see a todo list")
     public void user_should_be_able_to_see_a_todo_list() {

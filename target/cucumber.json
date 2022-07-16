@@ -3,58 +3,104 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-16T11:46:22.101Z",
+        "start_timestamp": "2022-07-16T13:13:47.317Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3867823900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.DailyTodo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
         "line": 3,
         "name": "User is able to create a daily task",
         "description": "",
         "id": "task-creation;user-is-able-to-create-a-daily-task",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.DailyTodo.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 6720788000,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on the main page",
-            "match": {},
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_is_on_the_main_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 791623300,
+              "status": "passed"
             },
             "line": 5,
             "name": "User clicks Edit link",
-            "match": {},
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_Edit_link()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 239925200,
+              "status": "passed"
             },
             "line": 6,
-            "name": "User types a todo list in the Tasks for today input box",
-            "match": {},
+            "name": "User enters a following list in the Tasks for today input box",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_enters_a_following_list_in_the_Tasks_for_today_input_box(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "Drink a glass of water"
+                ]
+              },
+              {
+                "cells": [
+                  "Go jogging"
+                ]
+              },
+              {
+                "cells": [
+                  "Take a shower"
+                ]
+              }
+            ],
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 728852600,
+              "status": "passed"
             },
-            "line": 7,
+            "line": 11,
             "name": "User clicks the Save Tasks button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_the_Save_Tasks_button()"
             },
-            "line": 8,
-            "name": "User should be able to see a todo list",
-            "match": {},
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       }

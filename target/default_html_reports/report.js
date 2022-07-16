@@ -9,44 +9,56 @@ formatter.scenario({
   "description": "",
   "keyword": "Scenario"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "User is on the main page",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_is_on_the_main_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks Edit link",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_Edit_link()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "User types a todo list in the Tasks for today input box",
+  "name": "User enters a following list in the Tasks for today input box",
+  "rows": [
+    {},
+    {},
+    {},
+    {}
+  ],
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_enters_a_following_list_in_the_Tasks_for_today_input_box(java.util.List\u003cjava.lang.String\u003e)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks the Save Tasks button",
   "keyword": "And "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_the_Save_Tasks_button()"
 });
-formatter.step({
-  "name": "User should be able to see a todo list",
-  "keyword": "Then "
-});
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
 });
 });

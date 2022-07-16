@@ -18,6 +18,6 @@ public class TaskCreationPage {
     public WebElement saveTasksButton;
 
     @FindBy(linkText = "Cancel")
-    public WebElement cancel;
+    public WebElement cancelButton;
 
 }

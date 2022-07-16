@@ -3,39 +3,16 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-16T16:36:09.481Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3154673400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "org.DailyTodo.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
         "line": 3,
-        "name": "User is able to create a daily task",
+        "name": "",
         "description": "",
-        "id": "task-creation;user-is-able-to-create-a-daily-task",
-        "after": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "org.DailyTodo.step_definitions.Hooks.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 6295494200,
-              "status": "passed"
+              "duration": 999700,
+              "status": "skipped"
             },
             "line": 4,
             "name": "User is on the main page",
@@ -46,8 +23,8 @@
           },
           {
             "result": {
-              "duration": 480670900,
-              "status": "passed"
+              "duration": 999300,
+              "status": "skipped"
             },
             "line": 5,
             "name": "User clicks Edit link",
@@ -58,8 +35,8 @@
           },
           {
             "result": {
-              "duration": 229238500,
-              "status": "passed"
+              "duration": 2999400,
+              "status": "skipped"
             },
             "line": 6,
             "name": "User enters a following list in the Tasks for today input box",
@@ -89,13 +66,45 @@
               }
             ],
             "keyword": "And "
-          },
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-16T16:56:59.147Z",
+        "before": [
           {
             "result": {
-              "duration": 769163100,
-              "status": "passed"
+              "duration": 999700,
+              "status": "skipped"
             },
-            "line": 11,
+            "match": {
+              "location": "org.DailyTodo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User is able to create a daily task",
+        "description": "",
+        "id": "task-creation;user-is-able-to-create-a-daily-task",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "org.DailyTodo.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 999900,
+              "status": "skipped"
+            },
+            "line": 13,
             "name": "User clicks the Save Tasks button",
             "match": {
               "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_the_Save_Tasks_button()"
@@ -104,14 +113,130 @@
           },
           {
             "result": {
-              "duration": 124677700,
-              "status": "passed"
+              "duration": 998400,
+              "status": "skipped"
             },
-            "line": 12,
+            "line": 14,
             "name": "User should be able to see a todo list",
             "match": {
               "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_should_be_able_to_see_a_todo_list()"
             },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User is on the main page",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User clicks Edit link",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_Edit_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1998600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enters a following list in the Tasks for today input box",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_enters_a_following_list_in_the_Tasks_for_today_input_box(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "Drink a glass of water"
+                ]
+              },
+              {
+                "cells": [
+                  "Go jogging"
+                ]
+              },
+              {
+                "cells": [
+                  "Take a shower"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-16T16:56:59.296Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "org.DailyTodo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User is able to cancel a daily task creation",
+        "description": "",
+        "id": "task-creation;user-is-able-to-cancel-a-daily-task-creation",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "org.DailyTodo.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "User clicks Cancel button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User should be navigated to the main page",
+            "match": {},
             "keyword": "Then "
           }
         ]

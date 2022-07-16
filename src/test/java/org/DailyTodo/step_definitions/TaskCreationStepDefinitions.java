@@ -51,4 +51,14 @@ public class TaskCreationStepDefinitions {
         Assert.assertEquals(expectedTodoList, mainPage.actualTodoList(numberOfTasks));
     }
 
+    @When("User clicks Cancel button")
+    public void user_clicks_Cancel_button() {
+       taskCreationPage.cancelButton.click();
+    }
+
+    @Then("User should be navigated to the main page")
+    public void user_should_be_navigated_to_the_main_page() {
+
+    }
+
     }

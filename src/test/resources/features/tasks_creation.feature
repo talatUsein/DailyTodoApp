@@ -1,6 +1,6 @@
 Feature: Task creation
 
-  Scenario: User is able to create a daily task
+  Background:
     Given User is on the main page
     When User clicks Edit link
     And User enters a following list in the Tasks for today input box
@@ -8,5 +8,14 @@ Feature: Task creation
       | Drink a glass of water |
       | Go jogging             |
       | Take a shower          |
+
+  Scenario: User is able to create a daily task
     And User clicks the Save Tasks button
     Then User should be able to see a todo list
+
+  Scenario: User is able to cancel a daily task creation
+    And User clicks Cancel button
+    Then User should be navigated to the main page
+
+
+

@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-07-16T13:13:47.317Z",
+        "start_timestamp": "2022-07-16T16:36:09.481Z",
         "before": [
           {
             "result": {
-              "duration": 3867823900,
+              "duration": 3154673400,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6720788000,
+              "duration": 6295494200,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 791623300,
+              "duration": 480670900,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 239925200,
+              "duration": 229238500,
               "status": "passed"
             },
             "line": 6,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 728852600,
+              "duration": 769163100,
               "status": "passed"
             },
             "line": 11,
@@ -101,6 +101,18 @@
               "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_the_Save_Tasks_button()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124677700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be able to see a todo list",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_should_be_able_to_see_a_todo_list()"
+            },
+            "keyword": "Then "
           }
         ]
       }

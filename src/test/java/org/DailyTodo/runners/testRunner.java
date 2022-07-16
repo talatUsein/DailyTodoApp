@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "org/DailyTodo/step_definitions",
-        dryRun = true
+        dryRun = false
 )
 
 

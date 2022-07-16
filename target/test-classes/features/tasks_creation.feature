@@ -9,4 +9,4 @@ Feature: Task creation
       | Go jogging             |
       | Take a shower          |
     And User clicks the Save Tasks button
-#    Then User should be able to see a todo list
+    Then User should be able to see a todo list

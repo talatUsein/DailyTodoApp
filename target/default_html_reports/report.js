@@ -58,6 +58,16 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.step({
+  "name": "User should be able to see a todo list",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_should_be_able_to_see_a_todo_list()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.after({
   "status": "passed"
 });

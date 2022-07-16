@@ -17,4 +17,7 @@ public class TaskCreationPage {
     @FindBy(xpath = "//p/input[@type='submit']")
     public WebElement saveTasksButton;
 
+    @FindBy(linkText = "Cancel")
+    public WebElement cancel;
+
 }

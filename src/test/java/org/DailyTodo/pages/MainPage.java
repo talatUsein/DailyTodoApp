@@ -18,8 +18,7 @@ public class MainPage {
 @FindBy(linkText = "Edit")
 public WebElement edit;
 
-@FindBy(linkText = "Cancel")
-public WebElement cancel;
+
 
     public List<String> actualTodoList (int numOfTasks){
         List<String>list=new ArrayList<>();

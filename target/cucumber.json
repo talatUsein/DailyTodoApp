@@ -11,8 +11,8 @@
         "steps": [
           {
             "result": {
-              "duration": 999700,
-              "status": "skipped"
+              "duration": 5176588900,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on the main page",
@@ -23,8 +23,8 @@
           },
           {
             "result": {
-              "duration": 999300,
-              "status": "skipped"
+              "duration": 469886100,
+              "status": "passed"
             },
             "line": 5,
             "name": "User clicks Edit link",
@@ -35,8 +35,8 @@
           },
           {
             "result": {
-              "duration": 2999400,
-              "status": "skipped"
+              "duration": 232459300,
+              "status": "passed"
             },
             "line": 6,
             "name": "User enters a following list in the Tasks for today input box",
@@ -70,12 +70,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-16T16:56:59.147Z",
+        "start_timestamp": "2022-07-16T17:03:09.183Z",
         "before": [
           {
             "result": {
-              "duration": 999700,
-              "status": "skipped"
+              "duration": 3309275400,
+              "status": "passed"
             },
             "match": {
               "location": "org.DailyTodo.step_definitions.Hooks.setUp()"
@@ -89,7 +89,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 651371300,
+              "status": "passed"
             },
             "match": {
               "location": "org.DailyTodo.step_definitions.Hooks.tearDown()"
@@ -101,8 +102,8 @@
         "steps": [
           {
             "result": {
-              "duration": 999900,
-              "status": "skipped"
+              "duration": 773724400,
+              "status": "passed"
             },
             "line": 13,
             "name": "User clicks the Save Tasks button",
@@ -113,8 +114,8 @@
           },
           {
             "result": {
-              "duration": 998400,
-              "status": "skipped"
+              "duration": 122375300,
+              "status": "passed"
             },
             "line": 14,
             "name": "User should be able to see a todo list",
@@ -134,8 +135,8 @@
         "steps": [
           {
             "result": {
-              "duration": 999400,
-              "status": "skipped"
+              "duration": 5316484100,
+              "status": "passed"
             },
             "line": 4,
             "name": "User is on the main page",
@@ -146,8 +147,8 @@
           },
           {
             "result": {
-              "duration": 999700,
-              "status": "skipped"
+              "duration": 606614000,
+              "status": "passed"
             },
             "line": 5,
             "name": "User clicks Edit link",
@@ -158,8 +159,8 @@
           },
           {
             "result": {
-              "duration": 1998600,
-              "status": "skipped"
+              "duration": 218742100,
+              "status": "passed"
             },
             "line": 6,
             "name": "User enters a following list in the Tasks for today input box",
@@ -193,11 +194,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-16T16:56:59.296Z",
+        "start_timestamp": "2022-07-16T17:03:20.008Z",
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1905572400,
+              "status": "passed"
             },
             "match": {
               "location": "org.DailyTodo.step_definitions.Hooks.setUp()"
@@ -211,7 +213,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 616304700,
+              "status": "passed"
             },
             "match": {
               "location": "org.DailyTodo.step_definitions.Hooks.tearDown()"
@@ -223,20 +226,26 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 454966900,
+              "status": "passed"
             },
             "line": 17,
             "name": "User clicks Cancel button",
-            "match": {},
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_Cancel_button()"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 7995800,
+              "status": "passed"
             },
             "line": 18,
             "name": "User should be navigated to the main page",
-            "match": {},
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_should_be_navigated_to_the_main_page()"
+            },
             "keyword": "Then "
           }
         ]

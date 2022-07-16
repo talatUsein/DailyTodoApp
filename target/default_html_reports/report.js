@@ -10,7 +10,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User is on the main page",
@@ -20,7 +20,7 @@ formatter.match({
   "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_is_on_the_main_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks Edit link",
@@ -30,7 +30,7 @@ formatter.match({
   "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_Edit_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters a following list in the Tasks for today input box",
@@ -46,7 +46,7 @@ formatter.match({
   "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_enters_a_following_list_in_the_Tasks_for_today_input_box(java.util.List\u003cjava.lang.String\u003e)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "User is able to create a daily task",
@@ -61,7 +61,7 @@ formatter.match({
   "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_the_Save_Tasks_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be able to see a todo list",
@@ -71,10 +71,10 @@ formatter.match({
   "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_should_be_able_to_see_a_todo_list()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.background({
   "name": "",
@@ -82,7 +82,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User is on the main page",
@@ -92,7 +92,7 @@ formatter.match({
   "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_is_on_the_main_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User clicks Edit link",
@@ -102,7 +102,7 @@ formatter.match({
   "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_Edit_link()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "User enters a following list in the Tasks for today input box",
@@ -118,7 +118,7 @@ formatter.match({
   "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_enters_a_following_list_in_the_Tasks_for_today_input_box(java.util.List\u003cjava.lang.String\u003e)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
   "name": "User is able to cancel a daily task creation",
@@ -129,19 +129,23 @@ formatter.step({
   "name": "User clicks Cancel button",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_Cancel_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
   "name": "User should be navigated to the main page",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_should_be_navigated_to_the_main_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 });

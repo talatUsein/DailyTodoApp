@@ -58,7 +58,7 @@ public class TaskCreationStepDefinitions {
 
     @Then("User should be navigated to the main page")
     public void user_should_be_navigated_to_the_main_page() {
-
+        Assert.assertEquals(ConfigurationReader.get("pagetitle"),Driver.get().getTitle());
     }
 
     }

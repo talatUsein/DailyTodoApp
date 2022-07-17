@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5176588900,
+              "duration": 5943916100,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 469886100,
+              "duration": 466677700,
               "status": "passed"
             },
             "line": 5,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 232459300,
+              "duration": 237497900,
               "status": "passed"
             },
             "line": 6,
@@ -70,11 +70,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-16T17:03:09.183Z",
+        "start_timestamp": "2022-07-16T17:39:03.395Z",
         "before": [
           {
             "result": {
-              "duration": 3309275400,
+              "duration": 4393235700,
               "status": "passed"
             },
             "match": {
@@ -89,7 +89,7 @@
         "after": [
           {
             "result": {
-              "duration": 651371300,
+              "duration": 619321700,
               "status": "passed"
             },
             "match": {
@@ -102,7 +102,7 @@
         "steps": [
           {
             "result": {
-              "duration": 773724400,
+              "duration": 811191600,
               "status": "passed"
             },
             "line": 13,
@@ -114,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 122375300,
+              "duration": 127176200,
               "status": "passed"
             },
             "line": 14,
@@ -135,7 +135,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5316484100,
+              "duration": 5624980100,
               "status": "passed"
             },
             "line": 4,
@@ -147,7 +147,7 @@
           },
           {
             "result": {
-              "duration": 606614000,
+              "duration": 686741900,
               "status": "passed"
             },
             "line": 5,
@@ -159,7 +159,7 @@
           },
           {
             "result": {
-              "duration": 218742100,
+              "duration": 232650300,
               "status": "passed"
             },
             "line": 6,
@@ -194,11 +194,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-16T17:03:20.008Z",
+        "start_timestamp": "2022-07-16T17:39:16.079Z",
         "before": [
           {
             "result": {
-              "duration": 1905572400,
+              "duration": 1398799200,
               "status": "passed"
             },
             "match": {
@@ -213,7 +213,7 @@
         "after": [
           {
             "result": {
-              "duration": 616304700,
+              "duration": 668968000,
               "status": "passed"
             },
             "match": {
@@ -226,7 +226,7 @@
         "steps": [
           {
             "result": {
-              "duration": 454966900,
+              "duration": 3426716500,
               "status": "passed"
             },
             "line": 17,
@@ -238,13 +238,184 @@
           },
           {
             "result": {
-              "duration": 7995800,
+              "duration": 7993400,
               "status": "passed"
             },
             "line": 18,
             "name": "User should be navigated to the main page",
             "match": {
               "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_should_be_navigated_to_the_main_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6066800600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the main page",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_is_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 541728400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks Edit link",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_Edit_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224420900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters a following list in the Tasks for today input box",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_enters_a_following_list_in_the_Tasks_for_today_input_box(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "Drink a glass of water"
+                ]
+              },
+              {
+                "cells": [
+                  "Go jogging"
+                ]
+              },
+              {
+                "cells": [
+                  "Take a shower"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-16T17:39:28.132Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1447915100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.DailyTodo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User is able to delete a daily tasks",
+        "description": "",
+        "id": "task-creation;user-is-able-to-delete-a-daily-tasks",
+        "after": [
+          {
+            "result": {
+              "duration": 612178200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "org.DailyTodo.step_definitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 191736200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters a following list in the Tasks for today input box",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_enters_a_following_list_in_the_Tasks_for_today_input_box(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "123"
+                ]
+              },
+              {
+                "cells": [
+                  "Drink a glass of water"
+                ]
+              },
+              {
+                "cells": [
+                  "Go jogging"
+                ]
+              },
+              {
+                "cells": [
+                  "Take a shower"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26875100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User deletes a todo list from the Tasks for today input box",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskDeletionStepDefinitions.user_deletes_a_todo_list_from_the_Tasks_for_today_input_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765233400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User clicks the Save Tasks button",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskCreationStepDefinitions.user_clicks_the_Save_Tasks_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//tbody//tr//td[1])[1]\"}\n  (Session info: chrome\u003d103.0.5060.114)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.3.0\u0027, revision: \u0027a4995e2c09*\u0027\nSystem info: host: \u0027WIN-UAJVPVPCN1I\u0027, ip: \u0027192.168.1.134\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.12\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4dfd85b8b6cc352798d996ba03af8782, findElement {using\u003dxpath, value\u003d(//tbody//tr//td[1])[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\Knight\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65056}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65056/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4dfd85b8b6cc352798d996ba03af8782\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy22.isEnabled(Unknown Source)\r\n\tat org.DailyTodo.step_definitions.TaskDeletionStepDefinitions.daily_tasks_should_be_deleted(TaskDeletionStepDefinitions.java:20)\r\n\tat ✽.daily tasks should be deleted(file:///C:/Users/Knight/IdeaProjects/DailyTodo/src/test/resources/features/tasks_creation.feature:28)\r\n",
+              "duration": 24772900,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "daily tasks should be deleted",
+            "match": {
+              "location": "org.DailyTodo.step_definitions.TaskDeletionStepDefinitions.daily_tasks_should_be_deleted()"
             },
             "keyword": "Then "
           }

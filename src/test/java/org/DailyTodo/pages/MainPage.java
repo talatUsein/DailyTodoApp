@@ -18,7 +18,8 @@ public class MainPage {
 @FindBy(linkText = "Edit")
 public WebElement edit;
 
-
+@FindBy(xpath = "(//tbody//tr//td[1])[1]")
+public WebElement firstRowOfTodoList;
 
     public List<String> actualTodoList (int numOfTasks){
         List<String>list=new ArrayList<>();
